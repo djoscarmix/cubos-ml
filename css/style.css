@@ -1,5 +1,5 @@
 @charset "UTF-8";
-@import url("https://fonts.googleapis.com/css?family=Baloo+Bhaina");
+@import url("https://fonts.googleapis.com/css?family=Baloo+Bhaina|Monoton|Slackey");
 /*!
  * Bootstrap v3.3.7 (http://getbootstrap.com)
  * Copyright 2011-2016 Twitter, Inc.
@@ -5815,9 +5815,59 @@ button.close {
   .hidden-print {
     display: none !important; } }
 
+@font-face {
+  font-family: Bebas;
+  src: url("../fonts/BebasNeue Bold.otf") format("opentype"); }
+
 body {
-  background-color: black;
-  color: #DC5353;
+  background-color: black; }
+
+h1 {
+  color: #2814EC;
   font-size: 40px;
   text-align: center;
-  font-family: 'Baloo Bhaina'; }
+  font-family: 'Slackey'; }
+
+h2 {
+  font-family: 'Bebas';
+  color: white;
+  text-align: center;
+  text-transform: capitalize;
+  letter-spacing: 10px;
+  font-size: 55px;
+  padding-top: 40px; }
+
+.container {
+  width: 900px;
+  background-image: url("../img/fondo.png");
+  background-color: #fff; }
+
+.contenedor {
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+  height: 200px; }
+  @media (min-width: 768px) {
+    .contenedor {
+      float: left;
+      width: 66.66667%; } }
+
+.logo {
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+  height: 200px; }
+  @media (min-width: 768px) {
+    .logo {
+      float: left;
+      width: 33.33333%; } }
+  .logo img {
+    height: 100px; }
+
+.papel {
+  background-image: url("../img/TIRA DE PAPEL.png");
+  background-color: #fff;
+  height: 160px;
+  width: 900px; }

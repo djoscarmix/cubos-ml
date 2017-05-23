@@ -1,10 +1,43 @@
-@import url('https://fonts.googleapis.com/css?family=Baloo+Bhaina')
+@import url('https://fonts.googleapis.com/css?family=Baloo+Bhaina|Monoton|Slackey')
 @import "../bootstrap-sass/assets/stylesheets/bootstrap"
 
+@font-face
+    font-family: Bebas
+    src: url("../fonts/BebasNeue Bold.otf") format("opentype")
 
 body
 	background-color: black
-	color: #DC5353
+	
+h1 
+	color: #2814EC
 	font-size: 40px
 	text-align: center
-	font-family: 'Baloo Bhaina'
+	font-family: 'Slackey'
+h2
+	font-family: 'Bebas'
+	color: white 
+	text-align: center
+	text-transform: capitalize
+	letter-spacing: 10px
+	font-size: 55px
+	padding-top: 40px
+.container
+	width: 900px
+	background-image: url('../img/fondo.png')
+	background-color: #fff
+.contenedor
+	@include make-sm-column(8)
+	height: 200px
+.logo
+	@include make-sm-column(4)
+	height: 200px
+	img 
+		height: 100px
+.papel
+	background-image: url('../img/TIRA DE PAPEL.png')
+	background-color: #fff
+	height: 160px
+	width: 900px
+	
+
+
